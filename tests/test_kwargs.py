@@ -2,7 +2,7 @@ import unittest
 from functools import partial
 import source.calc as calc
 
-class TestPartials(unittest.TestCase):
+class TestKwargs(unittest.TestCase):
     def test_basic(self):
         # create a new function that multiplies by 2
         mypartial = partial(calc.multiply,2)
