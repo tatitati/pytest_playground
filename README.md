@@ -1,7 +1,7 @@
 ## Run specific test:
 
 ```
-python3 -m unittest test_calc.py
+python3 -m unittest tests/test_calc.py
 ```
 
 ## Run all tests:
